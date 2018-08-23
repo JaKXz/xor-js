@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Basic XOR in JS",
   "main": "index.js",
+  "files": [
+    "index.js"
+  ],
   "repository": "https://github.com/JaKXz/xor-js",
   "author": "Jason Kurian <jgkurian@me.com>",
   "license": "MIT",
