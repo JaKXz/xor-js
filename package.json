@@ -7,7 +7,7 @@
   "author": "Jason Kurian <jgkurian@me.com>",
   "license": "MIT",
   "engines": {
-    "node": ">= 4"
+    "node": ">= 4.9"
   },
   "scripts": {
     "precommit": "pretty-quick --staged",
