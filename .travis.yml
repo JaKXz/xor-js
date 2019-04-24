@@ -1,8 +1,7 @@
-sudo: false
 language: node_js
 node_js:
-  - "lts/*"
-  - "stable"
-  
-script: "yarn test --coverage"
-after_success: "npx codecov"
+  - 'lts/*'
+  - 'node'
+
+script: 'yarn test --coverage'
+after_success: 'npx codecov'
