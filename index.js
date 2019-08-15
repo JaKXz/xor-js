@@ -3,6 +3,6 @@ module.exports = function xor(...args) {
     return false;
   }
 
-  const truthyCount = args.reduce((result, val) => result + !!val);
+  const truthyCount = args.reduce((result, val) => result + !!val, 0);
   return truthyCount === 1;
 };
