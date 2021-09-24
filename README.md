@@ -1,7 +1,6 @@
 # xor-js
 
-[![Build Status](https://travis-ci.org/JaKXz/xor-js.svg?branch=master)](https://travis-ci.org/JaKXz/xor-js)
-[![codecov](https://codecov.io/gh/JaKXz/xor-js/branch/master/graph/badge.svg)](https://codecov.io/gh/JaKXz/xor-js)
+[![Node.js CI](https://github.com/JaKXz/xor-js/actions/workflows/node.js.yml/badge.svg)](https://github.com/JaKXz/xor-js/actions/workflows/node.js.yml)
 [![npm Version](https://img.shields.io/npm/v/xor-js.svg)](https://www.npmjs.com/package/xor-js)
 [![npm Downloads Monthly](https://img.shields.io/npm/dm/xor-js.svg)](https://www.npmjs.com/package/xor-js)
 
