@@ -1,4 +1,4 @@
-module.exports = function xor(...args) {
+export default function xor(...args) {
   if (args.length < 2) {
     return false;
   }

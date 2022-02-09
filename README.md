@@ -27,8 +27,6 @@ function MyComponent({ primary, secondary, tertiary, ...props }) {
 }
 ```
 
-You will need the `--harmony` flag or [babel](https://babeljs.io) for `node` 4.9.x.
-
 ## Credits
 
 This was adapted and inspired from [this post on Code Review](https://codereview.stackexchange.com/a/199864/18700).

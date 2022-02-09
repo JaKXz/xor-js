@@ -1,29 +1,34 @@
-const xor = require('.');
+import {test} from 'uvu';
+import * as assert from 'uvu/assert';
+
+import xor from './index.js';
 
 test('not enough arguments', () => {
-  expect(xor()).toBe(false);
-  expect(xor(undefined)).toBe(false);
-  expect(xor(null)).toBe(false);
-  expect(xor(true)).toBe(false);
-  expect(xor(false)).toBe(false);
+  assert.is(xor(), false);
+  assert.is(xor(undefined), false);
+  assert.is(xor(null), false);
+  assert.is(xor(true), false);
+  assert.is(xor(false), false);
 });
 
 test('2 args', () => {
-  expect(xor(undefined, undefined)).toBe(false);
-  expect(xor(undefined, true)).toBe(true);
-  expect(xor(null, true)).toBe(true);
-  expect(xor(true, false)).toBe(true);
-  expect(xor(false, true)).toBe(true);
-  expect(xor(true, true)).toBe(false);
-  expect(xor(false, false)).toBe(false);
+  assert.is(xor(undefined, undefined), false);
+  assert.is(xor(undefined, true), true);
+  assert.is(xor(null, true), true);
+  assert.is(xor(true, false), true);
+  assert.is(xor(false, true), true);
+  assert.is(xor(true, true), false);
+  assert.is(xor(false, false), false);
 });
 
 test('many arguments', () => {
-  expect(xor(true, false, false)).toBe(true);
-  expect(xor(true, true, true)).toBe(false);
-  expect(xor(true, true, false)).toBe(false);
-  expect(xor(false, false, false)).toBe(false);
-  expect(xor(undefined, true, false, false)).toBe(true);
-  expect(xor(undefined, null, false, false)).toBe(false);
-  expect(xor(false, false, false, false, false, true)).toBe(true);
+  assert.is(xor(true, false, false), true);
+  assert.is(xor(true, true, true), false);
+  assert.is(xor(true, true, false), false);
+  assert.is(xor(false, false, false), false);
+  assert.is(xor(undefined, true, false, false), true);
+  assert.is(xor(undefined, null, false, false), false);
+  assert.is(xor(false, false, false, false, false, true), true);
 });
+
+test.run();
