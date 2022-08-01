@@ -316,9 +316,9 @@ supports-color@^7.1.0:
     has-flag "^4.0.0"
 
 uvu@^0.5.3:
-  version "0.5.4"
-  resolved "https://registry.yarnpkg.com/uvu/-/uvu-0.5.4.tgz#5a37482ade580b7d817569e0b2c013712857293c"
-  integrity sha512-x1CyUjcP9VKaNPhjeB3FIc/jqgLsz2Q9LFhRzUTu/jnaaHILEGNuE0XckQonl8ISLcwyk9I2EZvWlYsQnwxqvQ==
+  version "0.5.6"
+  resolved "https://registry.yarnpkg.com/uvu/-/uvu-0.5.6.tgz#2754ca20bcb0bb59b64e9985e84d2e81058502df"
+  integrity sha512-+g8ENReyr8YsOc6fv/NVJs2vFdHBnBNdfE49rshrTzDWOlUx4Gq7KOS2GD8eqhy2j+Ejq29+SbKH8yjkAqXqoA==
   dependencies:
     dequal "^2.0.0"
     diff "^5.0.0"
